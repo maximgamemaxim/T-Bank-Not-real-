@@ -1,0 +1,7 @@
+.cache/
+android/.signing/
+*.apk
+*.idsig
+qa/android-ui/target/
+__pycache__/
+*.pyc
