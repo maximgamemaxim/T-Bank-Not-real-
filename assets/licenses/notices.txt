@@ -1,0 +1,18 @@
+ZXing core 3.5.3
+Copyright ZXing authors. Apache License 2.0.
+https://github.com/zxing/zxing
+License: ZXING-LICENSE.txt
+Used for local QR/barcode generation and reading. No remote scanning service.
+
+Lucide icons, version 0.468.0
+Copyright Lucide contributors. ISC/MIT licenses as reproduced in LUCIDE-LICENSE.txt.
+https://lucide.dev
+SVG paths have been converted into Android VectorDrawables.
+
+org.json 20240303 (lib/json-20240303.jar)
+https://github.com/stleary/JSON-java
+JVM test dependency only. It is NOT packaged in the APK; Android supplies org.json.
+
+T-Bank trademarks belong to their respective owners. This project is unofficial
+and has no relationship with the bank. Reference artwork was cropped and
+sanitised; no private source screenshots or videos are included.
