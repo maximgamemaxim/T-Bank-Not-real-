@@ -1,0 +1,14 @@
+{
+  "source": "user-provided recording",
+  "durationSeconds": 127.435,
+  "frameRate": "variable; analysis used sequential frame timestamps",
+  "observations": {
+    "launch": "yellow shield, short crossfade",
+    "home": "interactive horizontal drag, short release snap, three default pages",
+    "nativeBack": "rightward slide with underlay parallax, about 0.25–0.35 seconds",
+    "tpayEntry": "crossfade; not a full-height sheet",
+    "cashbackEntry": "crossfade to skeleton, then content",
+    "tutorial": "animated miniature phone, several tips"
+  },
+  "implementation": "Android views, animators, scroll and touch events; network stalls omitted"
+}

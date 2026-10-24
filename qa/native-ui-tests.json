@@ -1,0 +1,413 @@
+{
+  "scope": "Robolectric 4.11.1; API 28; actual Android Views + native Skia; not a device/emulator",
+  "version": "2.3.0",
+  "appClassesSha256": "53067785f4b24d629bebfabb84f31dcb2d6dfee04ded25474f54c9e08fba6a93",
+  "resourceApkSha256": "ed2712ecbd39d99678165377aeb5afa5c103b367a0245f3df580b42443f6e6b8",
+  "tests": 68,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "seconds": 216.56500000000003,
+  "renderSizePixels": [
+    720,
+    1456
+  ],
+  "constructedRoutes": [
+    "about",
+    "account",
+    "account-limits",
+    "account-requisites",
+    "accounts",
+    "actions",
+    "add-bank",
+    "analytics",
+    "app-pin",
+    "atms",
+    "auto-topup",
+    "balance-settings",
+    "bank-picker",
+    "bonus-hub",
+    "bonus-offer",
+    "calendar",
+    "card-design",
+    "card-details",
+    "card-issue",
+    "card-issued",
+    "card-list",
+    "card-setup",
+    "cashback",
+    "cashback-categories",
+    "cashback-limits",
+    "cashback-month",
+    "cashback-offer",
+    "cashback-offers",
+    "catalog",
+    "certificates",
+    "chat",
+    "city",
+    "cloud-settings",
+    "countries",
+    "country-methods",
+    "currency-accounts",
+    "currency-exchange",
+    "data-access",
+    "deposit-calculator",
+    "devices",
+    "document-preview",
+    "family-card",
+    "family-card-appearance",
+    "family-card-person",
+    "favorites",
+    "gift-compose",
+    "gift-hub",
+    "help",
+    "home",
+    "home-content-settings",
+    "home-view",
+    "investment-catalog",
+    "investment-instrument",
+    "investments",
+    "invoices",
+    "job-applications",
+    "job-detail",
+    "jobs",
+    "linked-service",
+    "linked-services",
+    "login",
+    "login-settings",
+    "loyalty",
+    "loyalty-brands",
+    "loyalty-detail",
+    "monthly-statement",
+    "notifications",
+    "operations",
+    "orders",
+    "own-transfer",
+    "partner-plan",
+    "partner-subscriptions",
+    "payment-form",
+    "payment-settings",
+    "payments",
+    "personal-data",
+    "pro",
+    "product-details",
+    "product-hub",
+    "products",
+    "profile",
+    "promocodes",
+    "provider-directory",
+    "recurring",
+    "referral",
+    "referral-product",
+    "referral-status",
+    "request-money",
+    "requisites",
+    "resume",
+    "reviews",
+    "rounding",
+    "rounding-setup",
+    "savings-hub",
+    "savings-summary",
+    "sbp-setup",
+    "scan",
+    "search",
+    "security",
+    "services",
+    "settings",
+    "shop-favorites",
+    "shopping",
+    "shopping-address",
+    "shopping-catalog",
+    "shopping-product",
+    "showcase",
+    "statement",
+    "success",
+    "tpay",
+    "transaction",
+    "transfer",
+    "transfer-form",
+    "transfers-menu",
+    "travel",
+    "withdraw",
+    "word-game"
+  ],
+  "cases": [
+    {
+      "name": "homeInterestWidgetHasVisibleMeasuredCopy",
+      "seconds": 6.876
+    },
+    {
+      "name": "intrinsicLabelsReallyCenterInsideVerticalNativeLayout",
+      "seconds": 0.44
+    },
+    {
+      "name": "accountHasCentered24UnitBalanceAndNamedActions",
+      "seconds": 0.813
+    },
+    {
+      "name": "bundledRobotoLoadsCyrillicAndExactWeights",
+      "seconds": 0.286
+    },
+    {
+      "name": "cardListHasCompact69By44NativeMiniatures",
+      "seconds": 0.454
+    },
+    {
+      "name": "savingsUsesCenteredSummaryAndNotAPaymentCard",
+      "seconds": 0.42
+    },
+    {
+      "name": "oneTapActuallyExecutesWithoutReviewAndCannotDoubleDebit",
+      "seconds": 6.679
+    },
+    {
+      "name": "showcaseRendersLegacyCenteredHeroAndGrid",
+      "seconds": 0.674
+    },
+    {
+      "name": "cardDetailsIsANativeBackStackRoute",
+      "seconds": 1.107
+    },
+    {
+      "name": "cardSettingsUseSmallHeadingAndRequisitesGrid",
+      "seconds": 0.769
+    },
+    {
+      "name": "ownTransferHasCentralAmountAndBottomAccounts",
+      "seconds": 0.523
+    },
+    {
+      "name": "transferResultContainsReceiptAndBothImmutableBalanceSnapshots",
+      "seconds": 0.347
+    },
+    {
+      "name": "nativeSwitchHasLegacyBlueThumbAndPersistsItsState",
+      "seconds": 6.665
+    },
+    {
+      "name": "supplementaryScreensRenderWithTheSameNativeTypeface",
+      "seconds": 1.689
+    },
+    {
+      "name": "cashbackRendersLegacyCategoryGrid",
+      "seconds": 0.548
+    },
+    {
+      "name": "profileRendersNativeHorizontalDocumentTiles",
+      "seconds": 0.498
+    },
+    {
+      "name": "cityRendersNativeLegacyHeroAndAsymmetricGrid",
+      "seconds": 0.587
+    },
+    {
+      "name": "securityRendersLegacyGroupedPanels",
+      "seconds": 0.536
+    },
+    {
+      "name": "partnerSearchActuallyFiltersNativeRows",
+      "seconds": 7.122
+    },
+    {
+      "name": "savedPartnerOfferSurvivesReload",
+      "seconds": 0.509
+    },
+    {
+      "name": "cashbackDetailsAndLimitsRenderNativePanels",
+      "seconds": 1.029
+    },
+    {
+      "name": "homeWidgetCopyRemainsVisibleWhenScrolledIntoView",
+      "seconds": 0.72
+    },
+    {
+      "name": "updatePreservesSavedMoneyHistoryNamesAndCustomArtwork",
+      "seconds": 0.296
+    },
+    {
+      "name": "everyDispatchRouteConstructsAndMeasuresWithoutCrashing",
+      "seconds": 5.455
+    },
+    {
+      "name": "shippingAddressIsSavedWithoutLocationPermission",
+      "seconds": 7.299
+    },
+    {
+      "name": "shoppingCatalogIsNativeAndMeasured",
+      "seconds": 0.586
+    },
+    {
+      "name": "shoppingPageHasSwipeHeroAndWorkingProductSearch",
+      "seconds": 1.111
+    },
+    {
+      "name": "favoriteProductIsSavedAndAppearsInFavorites",
+      "seconds": 0.724
+    },
+    {
+      "name": "productPurchaseDebitsOnceAndCreatesLocalOrder",
+      "seconds": 0.509
+    },
+    {
+      "name": "openingInvestmentSummaryDoesNotInventMoney",
+      "seconds": 0.43
+    },
+    {
+      "name": "cardPanelHasRealPeekAndExpandedStates",
+      "seconds": 7.299
+    },
+    {
+      "name": "notificationDrawerHasStatementAndNativeCloseControl",
+      "seconds": 0.625
+    },
+    {
+      "name": "pushAnimationStartsToTheRightAndFinishesCleanly",
+      "seconds": 0.703
+    },
+    {
+      "name": "investmentBuyExecutesOnceThroughTheNativeBusyResultFlow",
+      "seconds": 0.755
+    },
+    {
+      "name": "nativeCardPanelTracksFingerAndSnapsExpanded",
+      "seconds": 0.615
+    },
+    {
+      "name": "separateInvestmentWidgetPreferencePersists",
+      "seconds": 0.655
+    },
+    {
+      "name": "scannerRendersNativeShutterGalleryTorchAndPayDrawer",
+      "seconds": 6.529
+    },
+    {
+      "name": "monthlyStatementRendersFictionalLedgerBalances",
+      "seconds": 0.644
+    },
+    {
+      "name": "cardEntryWaitsForMeasuredGeometryThenSlidesToPeek",
+      "seconds": 1.435
+    },
+    {
+      "name": "notificationsUseTopEntryInsteadOfHorizontalPush",
+      "seconds": 0.537
+    },
+    {
+      "name": "homePullRefreshExpandsThenReturnsToRest",
+      "seconds": 0.516
+    },
+    {
+      "name": "scannerPayDrawerFollowsPullAndSnapsOpen",
+      "seconds": 0.311
+    },
+    {
+      "name": "closingTPayFadesBackWithoutAnUnexpectedSidewaysPush",
+      "seconds": 8.083
+    },
+    {
+      "name": "warningIsShownOncePerInstallationNotEveryActivity",
+      "seconds": 6.735
+    },
+    {
+      "name": "numericIdentityIsStableAcrossRecreationAndDataReset",
+      "seconds": 6.525
+    },
+    {
+      "name": "profileDisplaysThePermanentCustomerNumber",
+      "seconds": 6.382
+    },
+    {
+      "name": "nativePinSetupRequiresMatchingConfirmationAndReturns",
+      "seconds": 8.136
+    },
+    {
+      "name": "mismatchedPinConfirmationIsNotSaved",
+      "seconds": 6.737
+    },
+    {
+      "name": "enabledPinRejectsWrongCodeAndHasNoSkipLogin",
+      "seconds": 9.079
+    },
+    {
+      "name": "coldLaunchWithPinStartsBehindTheRealAccessGate",
+      "seconds": 8.01
+    },
+    {
+      "name": "changingPinRequiresTheCurrentCode",
+      "seconds": 10.613
+    },
+    {
+      "name": "disablingPinRequiresCorrectCurrentCode",
+      "seconds": 9.441
+    },
+    {
+      "name": "repeatedWrongPinsCausePersistentCooldown",
+      "seconds": 10.031
+    },
+    {
+      "name": "backgroundLockUsesTheConfiguredTimeout",
+      "seconds": 7.633
+    },
+    {
+      "name": "pinIsNotPartOfTheExportedOrCloudState",
+      "seconds": 7.683
+    },
+    {
+      "name": "currencyExchangeUsesMinorUnitsAndShowsTheDestinationCurrency",
+      "seconds": 6.799
+    },
+    {
+      "name": "transactionDateIsReadableNotAnIsoTimestamp",
+      "seconds": 0.748
+    },
+    {
+      "name": "depositCalculatorOpensAndFundsExactlyOneAccount",
+      "seconds": 0.704
+    },
+    {
+      "name": "englishPreferenceChangesActualSettingsAndPaymentsCopy",
+      "seconds": 0.681
+    },
+    {
+      "name": "depositScreenDoesNotOfferCardPaymentCashbackOrCardBlocking",
+      "seconds": 0.496
+    },
+    {
+      "name": "longOutgoingAmountActuallyFitsItsNativeSingleLine",
+      "seconds": 0.637
+    },
+    {
+      "name": "cardWizardCreatesOneCardWithoutInventingMoney",
+      "seconds": 6.881
+    },
+    {
+      "name": "proSubscriptionDeductsOnceAndPersistsEntitlement",
+      "seconds": 0.701
+    },
+    {
+      "name": "cloudSettingsExposeStatusWithoutPretendingBackendIsReady",
+      "seconds": 0.636
+    },
+    {
+      "name": "jobApplicationCanBeSavedAndCancelled",
+      "seconds": 0.678
+    },
+    {
+      "name": "buttonsHaveNativePressAndReleaseAnimations",
+      "seconds": 0.335
+    },
+    {
+      "name": "launcherIsARealAdaptiveIcon",
+      "seconds": 0.301
+    },
+    {
+      "name": "thirdReferenceMenusRenderAsNativeViews",
+      "seconds": 8.57
+    }
+  ],
+  "limits": [
+    "No physical camera, sensors or Android system-integration checks",
+    "Native render snapshots are not phone screenshots",
+    "Render/geometry checks do not prove pixel-identical appearance on every Android"
+  ]
+}

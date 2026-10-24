@@ -1,0 +1,119 @@
+PASS money/comma and spaces
+PASS money/non-breaking spaces
+PASS money/decimal half-up
+PASS money/leading dot
+PASS money/negative remains negative
+PASS money/invalid and overflow
+PASS money/format roundtrip
+PASS own/total conserved
+PASS own/credit-side snapshots
+PASS model/source and result do not alias
+PASS phone/debit and history
+PASS topup/increases selected balance
+PASS topup/allowed while card frozen
+PASS validation/insufficient leaves source unchanged
+PASS validation/no source mutation without settings
+PASS validation/zero and negative
+PASS validation/operation maximum
+PASS validation/missing account
+PASS validation/same own account
+PASS validation/missing own destination
+PASS validation/frozen account blocks debit
+PASS validation/card limit
+PASS validation/exact card limit allowed
+PASS idempotency/reused ID rejected
+PASS channels/internet disabled
+PASS channels/contactless remains available
+PASS cash/withdrawals disabled
+PASS cash/no cashback or rounding
+PASS rounding/paired debit and credit
+PASS rounding/credit snapshots
+PASS rounding/50 rubles
+PASS rounding/100 rubles
+PASS rounding/no extra balance skips rounding
+PASS rounding/exact step adds zero
+PASS rounding/same target adds zero
+PASS rounding/own transfer unaffected
+PASS cashback/one percent in kopecks
+PASS cashback/PRO increases rate
+PASS cashback/pending total updates
+PASS invoice/paid invoice removed once
+PASS history/account and month filter
+PASS history/spending and income filters
+PASS history/date boundaries inclusive
+PASS history/all time
+PASS csv/specimen mark and BOM
+PASS csv/quoted names and formula escaping
+PASS documents/own credit uses source snapshots
+PASS documents/rounding credit has correct snapshots
+PASS documents/requisites are invalid zero-BIK samples
+PASS documents/statement opening and closing balances
+PASS documents/missing receipt handled
+PASS streak/duplicates counted once
+PASS streak/missing today resets
+PASS streak/five-day cap
+PASS qr/request uses integer kopecks and UTF-8
+PASS qr/legacy request compatibility
+PASS qr/referral recognised locally
+PASS qr/external payment URI not executable
+PASS qr/malformed or negative amount rejected
+PASS qr/malformed URL encoding rejected
+PASS qr/generator validates amount limit
+PASS qr/ZXing full encode-decode roundtrip
+PASS barcode/CODE128 roundtrip
+PASS portfolio/registry has deterministic positive fictional quotes
+PASS portfolio/buy exact kopecks and units
+PASS portfolio/success never mutates original state
+PASS portfolio/cash plus assets is conserved on buy
+PASS portfolio/sell credits exact cash and decreases holding
+PASS portfolio/full roundtrip preserves wealth
+PASS portfolio/invalid quantities rejected
+PASS portfolio/insufficient cash has no partial side effect
+PASS portfolio/overselling rejected without state changes
+PASS portfolio/duplicate request ID rejected
+PASS portfolio/unknown instrument and operation rejected
+PASS portfolio/missing blocked and locked account rejected
+PASS portfolio/no purchase cashback or savings rounding
+PASS portfolio/several positions and transaction IDs persist
+PASS access/PBKDF2 accepts correct code and rejects wrong code
+PASS access/random salts produce different verifier bytes
+PASS access/4 and 6 digits only
+PASS access/verifier base64 roundtrip
+PASS cloud/lossless backup keeps empty arrays objects and null
+PASS cloud/removes nested access secrets but retains card preferences
+PASS cloud/building envelope never mutates source
+PASS cloud/snapshot checksum rejects edited data
+PASS cloud/schema and profile number validated
+PASS cloud/financial integers survive exact backup restoration
+PASS cloud/restore cannot restore an active local lock bypass
+PASS firebase/rejects HTTP and lookalike database hosts
+PASS firebase/rejects path traversal in user IDs
+PASS firebase/anonymous auth uses the requested Android package
+PASS firebase/refresh token form is correctly encoded
+PASS firebase/private rules are probed and nonce is cleaned up
+PASS firebase/public probe blocks state upload and is cleaned
+PASS firebase/public snapshot path is blocked even when probe is private
+PASS firebase/read requests current ETag
+PASS firebase/write sends conditional If-Match
+PASS firebase/ETag conflict is not treated as a saved state
+PASS firebase/auth configuration error is surfaced
+PASS analytics/internal transfer pair is not consumer spending
+PASS analytics/purchase counted but excluded purchase not counted
+PASS analytics/investments and exchanges are not consumer expenses
+PASS format/large outgoing amount keeps all digits and currency
+PASS format/date displayed in human readable Russian
+PASS accounts/deposits and savings are not debit cards
+PASS fx/exchange has exact credited minor units and paired entries
+PASS fx/wealth difference equals disclosed currency rounding
+PASS fx/no source mutation or duplicate request replay
+PASS fx/invalid amount insufficient funds and same currency rejected
+PASS fx/own transfer kernel does not silently treat foreign money as roubles
+PASS deposit/atomic opening funds from existing account without new money
+PASS deposit/insufficient funds leaves no half-created account
+PASS deposit/duplicate funding request rejected
+PASS deposit/calculator and term limits
+PASS deposit/non-replenishable deposit rejects a second topup
+PASS payment/service fees can explicitly disable purchase cashback
+PASS seed/initial contacts use fictional 000 phones
+PASS seed/each account has a unique ID
+TOTAL 118 passed; Android UI, Camera and PDF Canvas runtime were NOT executed.
