@@ -1,0 +1,26 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "users": {
+      "$uid": {
+        ".read": "auth != null && auth.uid === $uid",
+        ".write": "auth != null && auth.uid === $uid",
+        "snapshot": {
+          ".validate": "newData.hasChildren(['schema', 'clientNumber', 'writer', 'revision', 'stateJson', 'sha256', 'updatedAt'])",
+          "schema": { ".validate": "newData.isNumber() && newData.val() === 1" },
+          "clientNumber": { ".validate": "newData.isString() && newData.val().matches(/^[0-9]{12}$/)" },
+          "writer": { ".validate": "newData.isString() && newData.val().length <= 100" },
+          "revision": { ".validate": "newData.isNumber() && newData.val() >= 0" },
+          "stateJson": { ".validate": "newData.isString() && newData.val().length <= 16777216" },
+          "sha256": { ".validate": "newData.isString() && newData.val().length === 64" },
+          "updatedAt": { ".validate": "newData.isNumber()" },
+          "avatar": {
+            ".validate": "newData.hasChildren(['mime','base64','sha256'])",
+            "base64": { ".validate": "newData.isString() && newData.val().length <= 900000" }
+          }
+        }
+      }
+    }
+  }
+}
